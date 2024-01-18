@@ -1,0 +1,22 @@
+{
+  "name": "cmpt315-test-package",
+  "version": "1.0.0",
+  "description": "This is a test package to learn how to create and deploy npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZSwensrude/CMPT315-Lab2.git"
+  },
+  "keywords": [
+    "example-package"
+  ],
+  "author": "Zachary Swensrude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZSwensrude/CMPT315-Lab2/issues"
+  },
+  "homepage": "https://github.com/ZSwensrude/CMPT315-Lab2#readme"
+}
