@@ -1,6 +1,6 @@
 {
   "name": "zswensrude-cmpt315-test-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a test package to learn how to create and deploy npm packages",
   "main": "index.js",
   "scripts": {
