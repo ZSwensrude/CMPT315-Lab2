@@ -10,9 +10,11 @@ const participants = (arr) => {
   let participants = [];
 
   arr.forEach((element) => {
+    // if winner not in participant list, add them
     if (!participants.includes(element.winner))
       participants.push(element.winner);
 
+    // if loser not in participant list, add them
     if (!participants.includes(element.loser))
       participants.push(element.loser);
   })

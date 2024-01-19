@@ -11,10 +11,12 @@ const winnersObject = (arr) => {
 
   let winners = {};
 
+  // create field for each participant
   participants(arr).forEach((element) => {
     winners[element] = [];
   })
 
+  // add the losers to the winner's field
   arr.forEach((element) => {
     winners[element.winner].push(element.loser);
   })

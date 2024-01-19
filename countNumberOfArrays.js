@@ -8,7 +8,9 @@ const countNumberOfArrays = (arr) => {
   if (!Array.isArray(arr)) return 0; 
 
   let count = 0;
+  // check each element
   arr.forEach((element) => {
+    // if element is array, increment it
     if (Array.isArray(element)) {
       count++;
     }
