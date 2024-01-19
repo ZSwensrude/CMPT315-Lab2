@@ -23,6 +23,7 @@ The following functions are currently implemented:
 - countNumberOfArrays: Return the count for the number of arrays inside a given array
 - participants: Returns an array of all the player names (no player should be listed more than once)
 - winnersObject: Returns an object which lists each participant, and a list of who they've beaten
+- biggestLoser: Returns the player with the most losses, subtracting wins from their loss count.
 
 
 
