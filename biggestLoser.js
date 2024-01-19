@@ -18,10 +18,12 @@ const biggestLoser = (arr) => {
 
   arr.forEach((element) => {
     // increment winner score
-    pointTally[element.winner]++;
+    pointTally[element.winner] += element.loser_points;
     // decrement loser score
-    pointTally[element.loser]--;
+    pointTally[element.loser] -= element.loser_points;
   })
+
+  console.log("pointTally", pointTally)
 
   // theres almost certaintly a better way to do this but this works
   let smallest = Infinity;
