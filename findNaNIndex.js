@@ -5,7 +5,7 @@
  */
 const findNaNIndex = (numArray) => {
   // if arg is not array, return -1
-  if (!Array.isArray(numArray)) return -1; 
+  if (!Array.isArray(numArray)) return []; 
 
   // copy array so we aren't messing with the original
   let numArrayCopy = [... numArray];
