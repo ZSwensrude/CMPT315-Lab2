@@ -4,11 +4,11 @@
  * @returns - number of arrays in given array
  */
 const countNumberOfArrays = (arr) => {
-  // if arg is not array, return -1
+  // if arg is not array, return 0
   if (!Array.isArray(arr)) return 0; 
 
   let count = 0;
-  arr.forEach((element, index) => {
+  arr.forEach((element) => {
     if (Array.isArray(element)) {
       count++;
     }

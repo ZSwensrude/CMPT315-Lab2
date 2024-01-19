@@ -4,7 +4,7 @@
  * @returns true or false if the array is a factor chain or not
  */
 const isArrayFactorChain = (numArray) => {
-  // if arg is not array, return -1
+  // if arg is not array, return false
   if (!Array.isArray(numArray)) return false; 
   // if array is one or no numbers, it cannot be a chain
   else if(numArray.length < 2) return false;
