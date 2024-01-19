@@ -22,6 +22,7 @@ The following functions are currently implemented:
 - isArrayFactorChain: Return true or false if an array is a factor chain or not
 - countNumberOfArrays: Return the count for the number of arrays inside a given array
 - participants: Returns an array of all the player names (no player should be listed more than once)
+- winnersObject: Returns an object which lists each participant, and a list of who they've beaten
 
 
 
