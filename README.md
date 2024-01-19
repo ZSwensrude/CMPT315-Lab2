@@ -1,26 +1,26 @@
-# zswensrude-cmpt315-test-package
+# @zswensrude/a2-package
 This is a package that 
 
 ## Purpose
-Used for learning purposes, to learn how to create and deploy an NPM package.
+Created for CMPT 315 Assignment 2.
 
 ## Usage
 
 **Install it:**
 
-`npm install zswensrude-cmpt315-test-package`
+`npm install @zswensrude/a2-package`
 
 **Require it:**
 
-`const _ = require('zswensrude-cmpt315-test-package')`
+`const _ = require('@zswensrude/a2-package')`
 
 
 ## Documentation
 
 The following functions are currently implemented:
-- 1
-- 2
-- 3
+- findNaNIndex: Find all the indexes where NaN is found in a given array of numbers and NaN
+- isArrayFactorChain: Return true or false if an array is a factor chain or not
+- countNumberOfArrays: Return the count for the number of arrays inside a given array
 
 
 

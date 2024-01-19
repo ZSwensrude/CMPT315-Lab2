@@ -1,11 +1,11 @@
-const add = require('./add.js');
 const findNaNIndex = require('./findNaNIndex.js')
 const isArrayFactorChain = require('./isArrayFactorChain.js')
+const countNumberOfArrays = require('./countNumberOfArrays.js')
 
 module.exports = {
-  add,
   findNaNIndex,
-  isArrayFactorChain
+  isArrayFactorChain,
+  countNumberOfArrays
 };
 
 
