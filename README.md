@@ -26,4 +26,7 @@ The following functions are currently implemented:
 - biggestLoser: Returns the player with the most losses, subtracting wins from their loss count
 
 
+### Versions
+Note that each function which was added was considered a minor release using `npm version minor`, and each change that didnt add a function was considered a patch using 'npm version patch'. This was followed, except for the first two functions, as I had to rename the project (as per instructor email), so the first two functions were implemented in version 1.0.0.
+
 
