@@ -1,4 +1,8 @@
-
+/**
+ * isArrayFactorChain: Return true or false if an array is a factor chain or not
+ * @param {*} numArray - array of numbers that will be checked
+ * @returns true or false if the array is a factor chain or not
+ */
 const isArrayFactorChain = (numArray) => {
   // if arg is not array, return -1
   if (!Array.isArray(numArray)) return false; 
