@@ -1,7 +1,7 @@
 {
-  "name": "zswensrude-cmpt315-test-package",
-  "version": "1.0.4",
-  "description": "This is a test package to learn how to create and deploy npm packages",
+  "name": "@zswensrude/a2-package",
+  "version": "1.4.3",
+  "description": "This is a package to fulfill the CMPT315 Assignment 2 requirements.",
   "main": "index.js",
   "scripts": {
     "test": "npm run test"
@@ -18,6 +18,5 @@
   "bugs": {
     "url": "https://github.com/ZSwensrude/CMPT315-Lab2/issues"
   },
-  "homepage": "https://github.com/ZSwensrude/CMPT315-Lab2#readme",
-  "type": "module"
+  "homepage": "https://github.com/ZSwensrude/CMPT315-Lab2#readme"
 }
